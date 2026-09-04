@@ -2,20 +2,7 @@
 
 My study notes, cheatsheets, and Jupyter notebooks for the **Claude Certified Architect – Foundations (CCAR-F)** exam.
 
-> ⚠️ These are personal study materials, written by me while preparing. They are **not** official Anthropic content, are not endorsed by or affiliated with Anthropic, and may contain mistakes or go stale as the exam evolves. Always check the official exam guide as the source of truth.
-
 ---
-
-## Repo layout
-
-```
-.
-├── cheatsheets/     # Markdown quick-reference, one file per exam domain
-├── notebooks/       # Jupyter notebooks — runnable API examples and experiments
-├── practice/        # Practice questions and answer keys with rationale
-└── requirements.txt # Python deps for the notebooks
-```
-
 ## Study path
 
 Anthropic publishes a free learning path on [Anthropic Academy](https://anthropic.skilljar.com/) that covers the large majority of the exam content. Work through it in order — each course maps onto the cheatsheets in this repo.
