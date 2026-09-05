@@ -5,7 +5,7 @@ explanation, caveat, and exam trap lives here, so the `.ipynb` files stay short 
 
 | Notebook | Guide |
 |---|---|
-| `01-multi-turn-conversation-api.ipynb` | [Accessing Claude with the API](#01--accessing-claude-with-the-api) |
+| `01-multi-turn-conversation.ipynb` | [Accessing Claude with the API](#01--accessing-claude-with-the-api) |
 | `02` *(planned)* | Tool use and the agentic loop |
 | `03` *(planned)* | Structured outputs |
 | `04` *(planned)* | Prompt caching |
