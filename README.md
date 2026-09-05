@@ -2,6 +2,8 @@
 
 My study notes, cheatsheets, and Jupyter notebooks for the **Claude Certified Architect – Foundations (CCAR-F)** exam.
 
+Setup and the per-notebook study guides: [`notebooks/README.md`](notebooks/README.md).
+
 ---
 ## Study path
 
