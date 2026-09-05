@@ -65,7 +65,7 @@ model = "claude-sonnet-5"
 ```
 
 - **`find_dotenv(usecwd=True)`** searches upward from the working directory, so `.env` is found
-  whether it sits in `notebooks/` or the repo root. A bare relative `".env"` breaks the moment the
+  whether it sits in `/` or the repo root. A bare relative `".env"` breaks the moment the
   file moves or Jupyter's CWD differs. Plain `find_dotenv()` inspects the call stack for the
   caller's `__file__`, which notebooks do not have — always pass `usecwd=True` here.
 - **`override=True`** is what makes a **rotated key** take effect. `load_dotenv()` will *not*
@@ -85,7 +85,7 @@ model = "claude-sonnet-5"
 Clear outputs so diffs stay readable and no key leaks:
 
 ```bash
-jupyter nbconvert --clear-output --inplace notebooks/*.ipynb
+jupyter nbconvert --clear-output --inplace ClaudeApi-Notebook/*.ipynb
 ```
 
 ---
